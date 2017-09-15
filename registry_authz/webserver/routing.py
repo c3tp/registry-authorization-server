@@ -13,15 +13,8 @@ def index():
     return "Index"
 
 
-def main(args):
-    app.run(host='0.0.0.0')
-
-
 def run():
     """Entry point for console_scripts
     """
-    main(sys.argv[1:])
+    app.run(host='0.0.0.0')
 
-
-if __name__ == '__main__':
-    run()
