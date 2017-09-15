@@ -1,2 +1,2 @@
-# registry-authorization-server
-Server that verifies authorization for docker registry requests
+# registry authorization server. 
+# Allow users to restrict access/allow access to user namespaces in registries. 
